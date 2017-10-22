@@ -41,17 +41,30 @@ export default {
   float: left;
   border: 1px solid black;
   text-align: center;
+  width: 50%;
 }
 .rightSide {
 
 }
 .signup {
-  float: right;
 
-  text-align: center;
+
 }
 
 .login {
 
 }
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
