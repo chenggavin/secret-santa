@@ -1,21 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://gitter.im/vuejs/vue" target="_blank">Gitter Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+    <nav> <h1>Secret Santa </h1></nav>
+
+
+    <div class="authContainer">
+      <div class="leftSide">
+        <h2 class="signup"> Sign Up</h2> 
+      </div>
+
+      <div class="rightSide">
+        <h2 class="login"> Log in </h2>
+      </div>
+
+    </div>
   </div>
 </template>
 
@@ -32,29 +29,29 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
 }
 
-h1, h2 {
-  font-weight: normal;
+.authContainer {
+
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+.leftSide {
+  float: left;
+  border: 1px solid black;
+  text-align: center;
+}
+.rightSide {
+
+}
+.signup {
+  float: right;
+
+  text-align: center;
 }
 
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+.login {
 
-a {
-  color: #42b983;
 }
 </style>
