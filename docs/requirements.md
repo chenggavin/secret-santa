@@ -50,6 +50,8 @@
 		b. Can view the profile of their person
 		c. Possibly view other people's profile as well?
 
+	C. Group leader / regular joining members
+
 ### General Backend Design
 
 1. After a person signs up, they are entered into the group.
